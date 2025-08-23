@@ -131,14 +131,16 @@ If your use case needs a different license, please open an issue to discuss dual
 
 ## Team
 
-- **Aloraini Abdulhakim**  
+- **Aloraini Abdulhakim**
+- **Muhannadhu Musthafa**    
 - **Abdelmohsine Smili**  
 - **Salma Yasser**  
 - **Mohammed Salman**  
-- **Muhannadhu Musthafa**  
 - **Aiham Samooh**
 
-> Special thanks to everyone who supported testing and feedback.
+> Special thanks to
+- **Ts. Wan Zailah binti Wan Said**
+ and everyone who supported testing and feedback.
 
 ---
 
