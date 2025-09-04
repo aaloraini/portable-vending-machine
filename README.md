@@ -143,7 +143,7 @@ This project is open source and available under the **MIT License**. See the `LI
 ## 👥 Team
 
 This project was created by:
--   **Aloraini Abdulhakim**
+-   **Aloraini Abdulhakim** (Leader)
 -   **Muhannadhu Musthafa**
 -   **Abdelmohsine Smili**
 -   **Salma Yasser**
