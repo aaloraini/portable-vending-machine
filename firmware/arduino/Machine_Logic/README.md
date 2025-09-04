@@ -111,7 +111,7 @@ Map keypad keys to slots and set **prices in sen**.
     unsigned VEND_STEPS_PER_MOTOR[4] = { 3072, 3072, 3072, 3072 };
 
 - **Direction:** flip sign if your spiral turns the wrong way.  
-- **Steps per vend:** tune for your dispenser’s pitch. (28BYJ-48 ≈ **4076** half-steps/rev typical; many use **2048** depending on gearbox—**3072** is a safe starting point.)
+- **Steps per vend:** tune for your dispenser’s pitch. (28BYJ-48 ≈ **4076** half-steps/rev typical; many use **2048** depending on gearbox-**3072** is a safe starting point.)
 
 ### 4.4 Step Timing
     const unsigned STEP_DELAY_MS = 1.5; // comment says ms
@@ -144,12 +144,12 @@ Map keypad keys to slots and set **prices in sen**.
 
 ## 6) Important Functions
 
-- `coinISR()` — Debounces and counts coin pulses (µs). Updates `lastPulseUs` / `lastPulseMs`.
-- `rotateInsertCoin()` — Smooth marquee by slicing a doubled string.
-- `fmtMoneyCents()` / `fmtPriceOnly()` — Build `MYR w.xx` strings and price strings.
-- **Funds helpers** — `totalFundsCents()`, `setFundsFromTotal()`, `addFundsCents()`, `deductFundsCents()`.
-- **Motor control** — `motorHalfStep()`, `motorRotate()`, `motorIdle()` (8-phase half-step; de-energize at end).
-- **LCD states** — `showIdleScreen()`, `lcdShowCoinAdded()`, `lcdShowUnknownCoin()`, `lcdShowInsufficient()`, `lcdShowVendStart()`, `lcdShowVendDone()`.
+- `coinISR()` - Debounces and counts coin pulses (µs). Updates `lastPulseUs` / `lastPulseMs`.
+- `rotateInsertCoin()` - Smooth marquee by slicing a doubled string.
+- `fmtMoneyCents()` / `fmtPriceOnly()` - Build `MYR w.xx` strings and price strings.
+- **Funds helpers** - `totalFundsCents()`, `setFundsFromTotal()`, `addFundsCents()`, `deductFundsCents()`.
+- **Motor control** - `motorHalfStep()`, `motorRotate()`, `motorIdle()` (8-phase half-step; de-energize at end).
+- **LCD states** - `showIdleScreen()`, `lcdShowCoinAdded()`, `lcdShowUnknownCoin()`, `lcdShowInsufficient()`, `lcdShowVendStart()`, `lcdShowVendDone()`.
 
 ---
 
@@ -197,10 +197,10 @@ Map keypad keys to slots and set **prices in sen**.
 
 ## 10) Safety & Reliability Tips
 
-- **Power:** Separate motor power if possible; ULN2003 sinks current—ensure **common ground**.
+- **Power:** Separate motor power if possible; ULN2003 sinks current-ensure **common ground**.
 - **Back-EMF:** ULN2003 has flyback diodes; still route wiring cleanly.
 - **Coin line:** Short/shielded cable; strong pull-up; confirm acceptor output is **5 V-safe**.
-- **Thermals:** Long stalls overheat steppers—keep step times reasonable and **de-energize after motion** (`motorIdle()` already does this).
+- **Thermals:** Long stalls overheat steppers-keep step times reasonable and **de-energize after motion** (`motorIdle()` already does this).
 
 ---
 
