@@ -153,7 +153,7 @@ This project was created by:
 > **Acknowledgments:**
 > This project was originally developed as part of a course at **UCSI University, Malaysia**, using university resources and guidance.
 >
-> We gratefully recognize the academic environment provided by the university and the support of our advisor:
+> **Special Thanks** to our advisor:
 > - **Ts. Wan Zailah binti Wan Said**
 >
 > ...and we acknowledge UCSI University's role in the learning process behind this work. All content is released openly with proper attribution to its academic origin.
